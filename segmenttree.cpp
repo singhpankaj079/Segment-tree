@@ -1,6 +1,6 @@
 typedef long long ll;
 #define mid ((left + right) >> 1)
-vector<int> t[400001];
+vector<int> t(400001);
 
 int build (int i,int left, int right){
    if (left == right){
