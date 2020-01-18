@@ -4,7 +4,7 @@ vector<int> t(400001);
 
 int build (int i,int left, int right){
    if (left == right){
-    t[i] = a[l];
+    t[i] = a[left];
     return t[i];
    }
    int leftsum = build(i*2, left, mid);
